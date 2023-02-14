@@ -20,9 +20,9 @@ function guessNum() {
 }
 function print() {
 	if (Math.abs( randomNum - input) <= 5){
-		document.getElementById("respond").innerText= input;
+		document.getElementById("respond").innerText="Hot";
 	}else{
-		document.getElementById("respond").innerHTML= input;
+		document.getElementById("respond").innerHTML="Cold";
 		
 	}
 }
